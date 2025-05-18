@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This document provides detailed instructions for deploying Sifra UI to various environments, including local development, staging, and production.
+This document provides detailed instructions for deploying AgentV to various environments, including local development, staging, and production.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ This document provides detailed instructions for deploying Sifra UI to various e
 
 ## Prerequisites
 
-Before deploying Sifra UI, ensure you have the following:
+Before deploying AgentV, ensure you have the following:
 
 - **Node.js**: Version 18.x or later
 - **npm**, **yarn**, or **pnpm**: For package management
@@ -47,8 +47,8 @@ Before deploying Sifra UI, ensure you have the following:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sifra-ui.git
-cd sifra-ui
+git clone https://github.com/likhonsdev/AgentV.git
+cd AgentV
 ```
 
 2. Install dependencies:
@@ -69,7 +69,7 @@ GEMINI_API_KEY=your_api_key_here
 
 # Optional: Override default UI configurations
 NEXT_PUBLIC_GEMINI_API_KEY=
-NEXT_PUBLIC_APP_NAME=Sifra UI
+NEXT_PUBLIC_APP_NAME=AgentV
 NEXT_PUBLIC_DEFAULT_MODEL=gemini-pro
 ```
 
@@ -111,7 +111,7 @@ pnpm start
 
 ## Vercel Deployment
 
-Vercel is the recommended deployment platform for Sifra UI, providing seamless integration with Next.js.
+Vercel is the recommended deployment platform for AgentV, providing seamless integration with Next.js.
 
 ### Deploying with Vercel CLI
 
@@ -192,7 +192,7 @@ Set up environment variables in your Vercel project:
 
 ### Docker Deployment
 
-You can containerize Sifra UI for deployment to various platforms like Kubernetes, AWS ECS, or Google Cloud Run.
+You can containerize AgentV for deployment to various platforms like Kubernetes, AWS ECS, or Google Cloud Run.
 
 1. Create a `Dockerfile` in the root directory:
 
@@ -260,8 +260,8 @@ module.exports = {
 4. Build and run the Docker image:
 
 ```bash
-docker build -t sifra-ui .
-docker run -p 3000:3000 -e GEMINI_API_KEY=your_api_key_here sifra-ui
+docker build -t agentv .
+docker run -p 3000:3000 -e GEMINI_API_KEY=your_api_key_here agentv
 ```
 
 ## CI/CD Setup
@@ -312,7 +312,7 @@ jobs:
 
 ### Edge Functions
 
-Sifra UI uses Edge Functions for API routes, which provides several benefits:
+AgentV uses Edge Functions for API routes, which provides several benefits:
 
 - Lower latency: Edge functions run closer to the user
 - Improved response times: Edge functions have faster cold starts

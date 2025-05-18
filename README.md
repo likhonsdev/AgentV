@@ -1,4 +1,4 @@
-# SIFRA UI - Modern and Advanced AI Application
+# AgentV - Modern and Advanced AI Application
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=%23000000)
 ![Powered by Google Gemini](https://img.shields.io/badge/POWERED%20BY-Google%20Gemini-4285F4.svg?style=for-the-badge&logo=google&logoColor=white)
@@ -8,7 +8,7 @@
 
 ## Build, Test, Deploy, and Monitor Powerful AI Applications and Agents
 
-Sifra UI is a modern, advanced AI application that leverages the power of Google's Gemini models through seamless integration. It provides a clean, responsive interface for interacting with state-of-the-art AI capabilities, offering real-time updates, data visualization, and personalized content delivery.
+AgentV is a modern, advanced AI application that leverages the power of Google's Gemini models through seamless integration. It provides a clean, responsive interface for interacting with state-of-the-art AI capabilities, offering real-time updates, data visualization, and personalized content delivery.
 
 Check out the live demo [here](https://your-demo-url.vercel.app).
 
@@ -42,8 +42,8 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sifra-ui.git
-   cd sifra-ui
+   git clone https://github.com/likhonsdev/AgentV.git
+   cd AgentV
    ```
 
 2. Install dependencies:
@@ -62,7 +62,7 @@ To run this project locally:
    
    # Optional: Override default UI configurations
    NEXT_PUBLIC_GEMINI_API_KEY=your_public_api_key_here
-   NEXT_PUBLIC_APP_NAME=Sifra UI
+   NEXT_PUBLIC_APP_NAME=AgentV
    NEXT_PUBLIC_DEFAULT_MODEL=gemini-pro
    ```
 
@@ -105,20 +105,23 @@ For detailed documentation, please refer to the [docs](./docs) directory:
 |----------|-------------|----------|---------|
 | `GEMINI_API_KEY` | Google AI API key for server-side usage | Yes | - |
 | `NEXT_PUBLIC_GEMINI_API_KEY` | Client-side API key (optional) | No | - |
-| `NEXT_PUBLIC_APP_NAME` | Custom application name | No | Sifra UI |
+| `NEXT_PUBLIC_APP_NAME` | Custom application name | No | AgentV |
 | `NEXT_PUBLIC_DEFAULT_MODEL` | Default Gemini model to use | No | gemini-pro |
 
 ## 🚢 Deployment
 
-This project is configured for easy deployment on Vercel:
+This project is configured for easy deployment on various platforms:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/sifra-ui)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/likhonsdev/AgentV)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/likhonsdev/AgentV)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/likhonsdev/AgentV)
+[![Deploy with Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://dash.cloudflare.com/new/pages?from=pages)
 
 See the [Deployment Guide](./docs/deployment.md) for detailed instructions on deploying to various environments.
 
 ## 🌟 Performance Optimization
 
-Sifra UI is optimized for performance in several ways:
+AgentV is optimized for performance in several ways:
 
 - **Server Components** - Reduce client-side JavaScript for faster load times
 - **Edge Runtime** - Minimize latency for API responses
@@ -150,4 +153,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 Built with ❤️ using Google Gemini and Next.js
-# sifra-chat

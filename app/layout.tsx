@@ -8,9 +8,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Sifra UI - Advanced AI Chatbot',
+  title: 'AgentV - Advanced AI Chatbot',
   description: 'Modern and advanced AI application powered by Google Gemini and Genkit.',
-  keywords: ['AI', 'Chatbot', 'Genkit', 'Gemini', 'Google AI', 'Sifra']
+  keywords: ['AI', 'Chatbot', 'Genkit', 'Gemini', 'Google AI', 'AgentV']
 }
 
 export default function RootLayout({
